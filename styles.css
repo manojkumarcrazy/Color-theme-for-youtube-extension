@@ -1,0 +1,100 @@
+/* Change the background color of the YouTube header */
+ /* Change the color of the video titles */
+ 
+ /* ytd-app{
+    background-color: rgb(156, 27, 143) !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+    font-style: italic !important;
+    /*color: blueviolet !important;
+    
+}*/
+*{
+    font-style: italic !important;
+}
+  ytd-watch-metadata{
+    color: goldenrod !important;
+    font-style: italic !important;
+    font-family: sans-serif !important;
+  }
+
+ytd-rich-grid-row{
+
+    background-color: #000000 !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+    font-style: italic !important;
+    /*color: blueviolet !important;*/
+}
+#dismissible.ytd-rich-shelf-renderer{
+
+    font-style:italic !important;
+    background: #b7822e !important;
+}
+.yt-core-image{
+    background: rgb(35, 21, 93) !important;
+}
+#video-title, .title, .yt-simple-endpoint.style-scope.ytd-video-renderer{
+
+    color: rgb(224, 235, 13) !important;
+    font-style: italic !important;
+}
+#container.ytd-searchbox{
+
+    background-color: blueviolet !important;
+}
+
+#center.ytd-masthead
+{
+    color: blueviolet !important;
+}
+
+}
+#search-input.ytd-searchbox-spt input {
+    background-color: violet !important;
+}
+#container.ytd-searchbox{
+    background: rgb(193, 221, 81) !important;
+}
+#search-input.ytd-searchbox-spt input{
+    background-color:  #860606 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-style: italic !important;
+    text-align: inherit !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+#search-icon.ytd-searchbox{
+    color:cadetblue !important;
+}
+ytd-searchbox[system-icons] #search-icon-legacy.ytd-searchbox yt-icon.ytd-searchbox {
+    color: #a20c0c !important;
+}
+yt-formatted-string[ellipsis-truncate-styling] {
+    display: block !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    color: #822b2b !important;
+}
+html[system-icons][dark], html[system-icons] [dark] {
+    --yt-spec-icon-inactive: #b0d617 !important;
+    --yt-spec-icon-disabled: #717171 !important;
+    --yt-spec-brand-icon-inactive: #fff !important;
+}
+
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: #d42b2b !important;
+}
+yt-formatted-string.ytd-comments-header-renderer {
+    color: #c62e00 !important;
+    font-style: italic !important;
+}
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
+    color: green !important;
+}
